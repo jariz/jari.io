@@ -10,7 +10,6 @@ import islandTent from './assets/island_tent.svg';
 import islandTrees from './assets/island_trees.svg';
 import lighthouse from './Lighthouse';
 import styled, { injectGlobal } from 'styled-components';
-import 'txt.wav/dist/css/txt.wav.css';
 
 const App = () => (
     <Parallax pages={2} config={config.wobbly}>
@@ -67,24 +66,7 @@ const App = () => (
         <ParallaxLayer offset={.65} speed={.4} factor={3}>
             <Container>
                 <Intro>
-                    <span className="txtwav slow">
-                        <span>I</span>
-                        <span>'</span>
-                        <span>m</span>
-                        <span>&nbsp;</span>
-                        <span>J</span>
-                        <span>a</span>
-                        <span>r</span>
-                        <span>i</span>
-                        <span>&nbsp;</span>
-                        <span>Z</span>
-                        <span>w</span>
-                        <span>a</span>
-                        <span>r</span>
-                        <span>t</span>
-                        <span>s</span>
-                        <span>,</span>
-                    </span>
+                    I'm Jari Zwarts,
                     <br />
                     a developer/designer based around <strong>Amsterdam</strong>.
                 </Intro>
