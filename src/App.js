@@ -188,11 +188,4 @@ const Island = {
 `
 };
 
-injectGlobal`
-    .txtwav {
-        position:relative;
-        top: 1vh;
-    }
-`
-
 export default App;
