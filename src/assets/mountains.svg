@@ -1,0 +1,29 @@
+
+<svg width="1187px" height="527px" viewBox="0 0 1187 527" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="54.5767507%" id="linearGradient-1">
+            <stop stop-color="#2D3E69" offset="0%"></stop>
+            <stop stop-color="#24325E" offset="98.0378432%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mountains">
+            <g id="Group-8">
+                <g>
+                    <g id="Group-Copy">
+                        <polygon id="Rectangle-4" fill="url(#linearGradient-1)" points="418.5 2.84217094e-14 836 527 1 527"></polygon>
+                        <polygon id="Rectangle-4-Copy-3" fill="#1E294F" points="418.5 2.84217094e-14 836 527 721 527"></polygon>
+                        <polygon id="Rectangle-4-Copy" fill="#7380AB" points="418.5 2.84217094e-14 366.763689 74.5981735 418.5 74.5981735 346.309798 155.212329 418.5 155.212329 248.853026 265.906393 418.5 253.874429 177.865994 374.194064 418.5 314.034247 130.942363 527 0 527"></polygon>
+                    </g>
+                    <g id="Group-Copy-2" transform="translate(351.000000, 84.000000)">
+                        <polygon id="Rectangle-4" fill="url(#linearGradient-1)" points="418.601439 2.84217094e-14 836 443 1.2028777 443"></polygon>
+                        <polygon id="Rectangle-4-Copy-4" fill="#242F52" points="418.601439 2.84217094e-14 836 443 751.202878 443"></polygon>
+                        <polygon id="Rectangle-4-Copy" fill="#7684B1" points="418.601439 0 351.240288 85.4701087 418.601439 71.0244565 283.879137 181.774457 418.601439 125.195652 212.909353 290.116848 418.601439 229.92663 129.910791 443 0 443"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

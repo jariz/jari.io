@@ -1,0 +1,23 @@
+
+<svg width="482px" height="201px" viewBox="0 0 482 201" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#27106F" offset="0%"></stop>
+            <stop stop-color="#0E1B46" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ground" transform="translate(-1893.000000, 0.000000)" fill="url(#linearGradient-1)">
+            <g id="island">
+                <g transform="translate(1519.000000, 0.000000)">
+                    <g id="trees" transform="translate(374.000000, 0.000000)">
+                        <polygon id="Rectangle-2-Copy" transform="translate(141.000000, 100.334711) scale(-1, 1) translate(-141.000000, -100.334711) " points="0 200.347107 21.5578512 85.5661157 43.6983471 181.119835 54.1859504 109.454545 64.6735537 153.152893 79.2396694 71 94.9710744 178.206612 118.27686 0.32231405 145.661157 105.198347 156.14876 42.2727273 170.714876 121.214876 187.61157 21.2975207 217.909091 185.198347 237.136364 122.272727 249.371901 165.38843 264.520661 100.714876 282 200.347107"></polygon>
+                        <polygon id="Rectangle-2-Copy-2" points="200 200.347107 221.557851 85.5661157 243.698347 181.119835 254.18595 109.454545 264.673554 153.152893 279.239669 71 294.971074 178.206612 318.27686 50.322314 345.661157 155.198347 356.14876 92.2727273 370.714876 171.214876 387.61157 71.2975207 417.909091 185.198347 437.136364 122.272727 449.371901 165.38843 464.520661 100.714876 482 200.347107"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

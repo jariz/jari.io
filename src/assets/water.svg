@@ -1,0 +1,20 @@
+
+<svg width="1927px" height="958px" viewBox="0 0 1927 958" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="72.7405369%" id="linearGradient-1">
+            <stop stop-color="#2241A8" offset="0%"></stop>
+            <stop stop-color="#1E3378" offset="8.34781734%"></stop>
+            <stop stop-color="#1E3378" offset="23.4730615%"></stop>
+            <stop stop-color="#315BE7" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-633.000000, -652.000000)" fill="url(#linearGradient-1)">
+            <g id="Group-3" transform="translate(-183.000000, 0.000000)">
+                <rect id="water" x="816" y="652" width="1928" height="959"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

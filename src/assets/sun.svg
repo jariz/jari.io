@@ -1,0 +1,20 @@
+<svg width="999px" height="999px" viewBox="0 0 999 999" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="37.2152357%" id="radialGradient-1">
+            <stop stop-color="#F03A3A" offset="0%"></stop>
+            <stop stop-color="#F0443A" offset="47.9294617%"></stop>
+            <stop stop-color="#F0443A" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="sun" transform="translate(-171.000000, -171.000000)">
+            <g>
+                <circle fill="#E84779" opacity="0.725055804" cx="670" cy="671" r="186"></circle>
+                <circle id="glow" fill="url(#radialGradient-1)" opacity="0.552455357" cx="670.5" cy="670.5"
+                        r="670.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

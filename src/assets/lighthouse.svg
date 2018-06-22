@@ -1,0 +1,56 @@
+
+<svg width="157px" height="505px" viewBox="0 0 157 505" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="52.8219627%" fx="50%" fy="52.8219627%" r="45.1088433%" gradientTransform="translate(0.500000,0.528220),scale(0.930481,1.000000),rotate(90.000000),translate(-0.500000,-0.528220)" id="radialGradient-1">
+            <stop stop-color="#FFA000" offset="0%"></stop>
+            <stop stop-color="#FFDDA2" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFF8DE" offset="0%"></stop>
+            <stop stop-color="#F4C057" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="28.0626296%" y1="2.72362811%" x2="28.0626297%" y2="122.066651%" id="linearGradient-3">
+            <stop stop-color="#F87F8D" offset="0%"></stop>
+            <stop stop-color="#E6707A" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#F4929E" offset="0%"></stop>
+            <stop stop-color="#E55965" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="95.0300304%" id="linearGradient-5">
+            <stop stop-color="#FB4B4B" offset="0%"></stop>
+            <stop stop-color="#FF8A94" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-891.000000, -261.000000)">
+            <g id="Group-3" transform="translate(-183.000000, 0.000000)">
+                <g id="lighthouse" transform="translate(1059.000000, 260.000000)">
+                    <ellipse id="Oval-3" fill="url(#radialGradient-1)" opacity="0.693973214" cx="93.5" cy="87" rx="93.5" ry="87"></ellipse>
+                    <path d="M95.9592013,84.8969811 C95.9592013,82.1580948 93.7388952,75.3918622 91.0000089,75.3918622 C88.2611225,75.3918622 86.0408164,82.1580948 86.0408164,84.8969811 C86.0408164,86.5386141 85.2142843,93.1623019 91.0000089,93.1623019 C96.7855796,93.1623019 95.9592013,85.9942345 95.9592013,84.8969811 Z" id="Oval" fill="url(#linearGradient-2)" opacity="0.662555804"></path>
+                    <path d="M60,61 L60,58 L112,58 L112,63 L65,63 L65,85 C66.3333333,85 67,85.6666667 67,87 L112,87 L112,108 L49,113 C51,107 53.1680443,103.385122 55.504133,102.155366 C55.9589159,98.2439325 57.4575382,95.5254771 60,94 L60,87 C60,85.6666667 60.6666667,85 62,85 L62,63 C60.6666667,63 60,62.3333333 60,61 Z" id="Rectangle-2" fill="#630F2A"></path>
+                    <path d="M84,61 L84,58 L136,58 L136,63 L89,63 L89,85 C90.3333333,85 91,85.6666667 91,87 L136,87 L136,108 L73,113 C75,107 77.1680443,103.385122 79.504133,102.155366 C79.9589159,98.2439325 81.4575382,95.5254771 84,94 L84,87 C84,85.6666667 84.6666667,85 86,85 L86,63 C84.6666667,63 84,62.3333333 84,61 Z" id="Rectangle-2-Copy" fill="#630F2A" transform="translate(104.500000, 85.500000) scale(-1, 1) translate(-104.500000, -85.500000) "></path>
+                    <g id="Group-8" transform="translate(76.000000, 63.000000)" fill="#630F2A">
+                        <path d="M5,-1.49324997e-14 L5,25 C6.33333333,25 7,25.6666667 7,27 L-1.13686838e-13,27 C-1.13686838e-13,25.6666667 0.666666667,25 2,25 L2,-2.84217094e-14 C0.666666667,-2.84217094e-14 1.66666667,-2.39253062e-14 5,-1.49324997e-14 Z" id="Rectangle-2-Copy-2"></path>
+                        <path d="M28,-1.49324997e-14 L28,25 C29.3333333,25 30,25.6666667 30,27 L23,27 C23,25.6666667 23.6666667,25 25,25 L25,-2.84217094e-14 C23.6666667,-2.84217094e-14 24.6666667,-2.39253062e-14 28,-1.49324997e-14 Z" id="Rectangle-2-Copy-4"></path>
+                    </g>
+                    <polygon id="Rectangle-9" fill="#E55965" points="69 107 116 107 137 506 49 506"></polygon>
+                    <polygon id="Rectangle-9-Copy-2" fill="url(#linearGradient-3)" transform="translate(49.000000, 302.000000) scale(-1, 1) translate(-49.000000, -302.000000) " points="29 107 49 112 69 497 42 497"></polygon>
+                    <polygon id="Rectangle-9-Copy-3" fill="#510B21" points="116 107 136 112 156 497 129 497"></polygon>
+                    <path d="M122.000914,58 C122.778596,47.3333333 113.111929,42 93.0009142,42 C72.8898993,42 62.8898993,47.3333333 63.0009142,58 L122.000914,58 Z" id="Oval-2" fill="url(#linearGradient-4)"></path>
+                    <g id="Group-9" transform="translate(87.000000, 2.000000)">
+                        <g id="Group-10" transform="translate(0.733333, 0.000000)" stroke="#630F2A" stroke-linecap="square">
+                            <path d="M4.76666667,37.5 L4.76666667,3.41374044" id="Line-2"></path>
+                            <path d="M4.76666667,2.5 L4.76666667,0.5" id="Line-2-Copy" stroke-width="2"></path>
+                        </g>
+                        <path d="M5.5,33.7413793 L3.85,33.7835845 L3.85,34.8793103 C2.75,34.8793103 2.2,35.2586207 2.2,36.0172414 C2.2,36.7758621 2.75,37.1551724 3.85,37.1551724 L3.85,40 L5.5,40 L5.5,33.7413793 Z" id="Oval-4" fill="#FF8A94"></path>
+                        <path d="M8.8,33.7413793 L7.15,33.7835845 L7.15,34.8793103 C6.05,34.8793103 5.5,35.2586207 5.5,36.0172414 C5.5,36.7758621 6.05,37.1551724 7.15,37.1551724 L7.15,40 L8.8,40 L8.8,33.7413793 Z" id="Oval-4-Copy" fill="#FF8A94" transform="translate(7.150000, 36.870690) scale(-1, 1) translate(-7.150000, -36.870690) "></path>
+                        <path d="M5.5,34.8793103 C8.53756612,34.8793103 11,33.081965 11,29.9396552 C11,26.7973454 8.53756612,24.25 5.5,24.25 C2.46243388,24.25 0,26.7973454 0,29.9396552 C0,33.081965 2.46243388,34.8793103 5.5,34.8793103 Z" id="Oval-5" fill="url(#linearGradient-5)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

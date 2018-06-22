@@ -1,0 +1,20 @@
+
+<svg width="241px" height="99px" viewBox="0 0 241 99" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ground" transform="translate(-1954.000000, -188.000000)">
+            <g id="island">
+                <g transform="translate(1519.000000, 0.000000)">
+                    <g id="tent" transform="translate(435.000000, 188.000000)">
+                        <polygon id="Triangle" fill="#0E3A46" points="39 0 78 78 0 78"></polygon>
+                        <polygon id="Triangle-Copy-2" fill="#0C313B" points="36 48 51 78 21 78"></polygon>
+                        <polygon id="Triangle-Copy" fill="#134E5F" points="39 0 118 0 158 78 77 78"></polygon>
+                        <polygon id="Rectangle-4" fill-opacity="0.140000001" fill="#000000" points="74 78 158 78 241 93 117 99 0 78"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
