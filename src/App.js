@@ -136,7 +136,8 @@ const LinksColumn = styled.div`
     p {
         color: #FC3476;        
         font-size: 1.2vw;
-        line-height: 1.8vw;
+        line-height: 2vw;
+        margin: 0;
         
         a {
             color:inherit;
