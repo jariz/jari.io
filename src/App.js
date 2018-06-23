@@ -9,10 +9,10 @@ import islandGround from './assets/island_ground.svg';
 import islandTent from './assets/island_tent.svg';
 import islandTrees from './assets/island_trees.svg';
 import lighthouse from './Lighthouse';
-import styled, { injectGlobal } from 'styled-components';
+import styled from 'styled-components';
 
 const App = () => (
-    <Parallax pages={2} config={config.wobbly}>
+    <Parallax pages={1.5} config={config.wobbly}>
         <ParallaxLayer style={{ background: '#3c2b4b' }} offset={0.6} factor={2} speed={0.4} />
 
         <ParallaxLayer offset={0.59} speed={0.4}>
@@ -35,7 +35,7 @@ const App = () => (
             </Background>
         </ParallaxLayer>
 
-        <ParallaxLayer offset={0.27} speed={-.1}>
+        <ParallaxLayer offset={0.25} speed={-.1}>
             <Lighthouse />
         </ParallaxLayer>
 
@@ -63,13 +63,49 @@ const App = () => (
             <Grain />
         </ParallaxLayer>
 
-        <ParallaxLayer offset={.65} speed={.4} factor={3}>
+        <ParallaxLayer offset={.67} speed={.4} factor={3}>
             <Container>
                 <Intro>
                     I'm Jari Zwarts,
                     <br />
                     a developer/designer based around <strong>Amsterdam</strong>.
                 </Intro>
+                {/*<Byline>*/}
+                    {/*I'm currently building things at <strong>Oberon</strong>.*/}
+                {/*</Byline>*/}
+                
+                <Links>
+                    <LinksColumn>
+                        <h3>Round the web</h3>
+                        <h2>Links</h2>
+                        <p>
+                            <a href="https://github.com/jariz" target="_blank">GitHub</a><br/>
+                            <a href="https://dribbble.com/jariz" target="_blank">Dribbble</a><br/>
+                            <a href="https://twitter.com/JariZwarts" target="_blank">Twitter</a><br/>
+                            <a href="https://twitter.com/JariZwarts" target="_blank">LinkedIn</a> (ugh)
+                        </p>
+                    </LinksColumn>
+                    <LinksColumn>
+                        <h3>Sporadic Projects</h3>
+                        <h2>Open Source</h2>
+                        <p>
+                            <a href="https://noti.center" target="_blank">Noti</a><br/>
+                            <a href="https://jariz.github.io/vibrant.js/" target="_blank">Vibrant.js</a><br/>
+                            Akku (soon)<br/>
+                            <a href="https://github.com/jariz/tabbie" target="_blank">Tabbie</a> (now defunct)
+                        </p>
+                    </LinksColumn>
+                    <LinksColumn>
+                        <h3>I wrote code for...</h3>
+                        <h2>Clients</h2>
+                        <p>
+                            <a href="https://ajax.nl" target="_blank">Ajax</a><br/>
+                            <a href="https://www.centraalbeheer.nl/" target="_blank">Centraal Beheer</a><br/>
+                            <a href="https://knaw.nl/" target="_blank">KNAW</a><br/>
+                            <a href="https://idfa.nl/" target="_blank">IDFA</a>
+                        </p>
+                    </LinksColumn>
+                </Links>
             </Container>
         </ParallaxLayer>
 
@@ -80,20 +116,70 @@ const Container = styled.div`
     width: 100%;
     margin: 0 auto;
     position:relative;
+    color: #FFF;
+    padding: 0 3vw;
 `;
 
+const Links = styled.section`
+    display: flex;
+    margin-top: 15vh;
+`;
+
+const LinksColumn = styled.div`
+    padding: 2vw;
+    font-family: "Work Sans", sans-serif;
+    
+    &:first-child {
+        margin-left: -2vw;
+    }
+    
+    p {
+        color: #FC3476;        
+        font-size: 1.2vw;
+        line-height: 1.8vw;
+        
+        a {
+            color:inherit;
+        }
+    }
+    
+    h2 {
+        font-family: "Space Mono", monospace;
+        font-size: 3.2vw;
+        text-transform: uppercase;
+        margin: -.5vw 0 0;
+    }
+    
+    h3 {
+        margin: 0;
+        opacity: 0.89;
+        font-size: .8vw;
+        letter-spacing: 2.22px;
+        text-transform: uppercase;
+        font-weight: 300;
+    }
+`
+
 const Intro = styled.h1`
-    padding: 0 3vw;
     font-family: "Space Mono", monospace;
     font-size: 3vw;
     color: #FFFFFF;
     letter-spacing: 0;
-    margin-right:35%;
     font-weight: 400;
+    margin-right:40%;
 `;
+
+// const Byline = styled.h1`
+//     font-family: "Work Sans", sans-serif;
+//     font-size: 2vw;
+//     color: #FC3476;
+//     letter-spacing: 0;
+// `
 
 const Sun = styled.img.attrs({ src: sun })`
     width: 40%;
+    position:absolute;
+    left:5%;
 `;
 
 const Water = styled.img.attrs({ src: water })`
@@ -138,7 +224,7 @@ Mountains.Reflection = Mountains.extend`
 
 const Lighthouse = styled(lighthouse)`
     position:absolute;
-    left:33%;
+    left:20%;
     width: 14%;
     height: 45%;
 `;
