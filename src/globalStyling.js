@@ -4,7 +4,13 @@ injectGlobal`
     @import url('https://fonts.googleapis.com/css?family=Space+Mono:400,700|Work+Sans:400,300');
     
     html {
-        font-size:10px;
+        font-size:1vw;
+    }
+    
+    @media screen and (max-width: 750px) {
+        html {
+            font-size: 12px;
+        }
     }
     
     body {

@@ -1,10 +1,11 @@
-
-<svg width="2570px" height="1049px" viewBox="0 0 2570 1049" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2570px" height="2176px" viewBox="0 0 2570 2176" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>ground</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <rect id="path-1" x="0" y="0" width="2570" height="1053"></rect>
-        <linearGradient x1="19.3622908%" y1="2.81417484%" x2="17.7586122%" y2="12.2117125%" id="linearGradient-3">
+        <rect id="path-1" x="0" y="0" width="2570" height="2176"></rect>
+        <linearGradient x1="19.3457789%" y1="2.91093417%" x2="17.7586122%" y2="12.2117125%" id="linearGradient-3">
             <stop stop-color="#463456" offset="0%"></stop>
             <stop stop-color="#3C2B4B" offset="100%"></stop>
         </linearGradient>
@@ -17,6 +18,7 @@
                         <use xlink:href="#path-1"></use>
                     </mask>
                     <g id="Rectangle-2"></g>
+                    <rect id="Rectangle-2-Copy-3" fill="#3C2B4B" mask="url(#mask-2)" x="0" y="683" width="2570" height="1493"></rect>
                     <polygon id="Rectangle-5" fill="url(#linearGradient-3)" mask="url(#mask-2)" points="0 0 1046 1.13686838e-13 2571 534.5 2571 1049 0 1049"></polygon>
                     <path d="M994,5.68434189e-14 L1126,5.68434189e-14 L2457,446 C2650.75387,516.354222 2767.08721,561.687555 2806,582 C3184.47252,779.562324 2947.81321,751.759583 2376,560 C1716,338.666667 1255.33333,152 994,5.68434189e-14 Z" id="Rectangle-3" fill="#322340" mask="url(#mask-2)"></path>
                 </g>

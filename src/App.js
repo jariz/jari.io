@@ -12,7 +12,7 @@ import lighthouse from './Lighthouse';
 import styled from 'styled-components';
 
 const App = () => (
-    <Parallax pages={1.5} config={config.wobbly}>
+    <Parallax pages={1.75} config={config.wobbly}>
         <ParallaxLayer style={{ background: '#3c2b4b' }} offset={0.6} factor={2} speed={0.4} />
 
         <ParallaxLayer offset={0.59} speed={0.4}>
@@ -71,72 +71,86 @@ const App = () => (
                     a developer/designer based around <strong>Amsterdam</strong>.
                 </Intro>
                 {/*<Byline>*/}
-                    {/*I'm currently building things at <strong>Oberon</strong>.*/}
+                {/*I'm currently building things at <strong>Oberon</strong>.*/}
                 {/*</Byline>*/}
-                
-                <Links>
-                    <LinksColumn>
-                        <h3>Round the web</h3>
-                        <h2>Links</h2>
-                        <p>
-                            <a href="https://github.com/jariz" target="_blank">GitHub</a><br/>
-                            <a href="https://dribbble.com/jariz" target="_blank">Dribbble</a><br/>
-                            <a href="https://twitter.com/JariZwarts" target="_blank">Twitter</a><br/>
-                            <a href="https://twitter.com/JariZwarts" target="_blank">LinkedIn</a> (ugh)
-                        </p>
-                    </LinksColumn>
-                    <LinksColumn>
-                        <h3>Sporadic Projects</h3>
-                        <h2>Open Source</h2>
-                        <p>
-                            <a href="https://noti.center" target="_blank">Noti</a><br/>
-                            <a href="https://jariz.github.io/vibrant.js/" target="_blank">Vibrant.js</a><br/>
-                            Akku (soon)<br/>
-                            <a href="https://github.com/jariz/tabbie" target="_blank">Tabbie</a> (now defunct)
-                        </p>
-                    </LinksColumn>
-                    <LinksColumn>
-                        <h3>I wrote code for...</h3>
-                        <h2>Clients</h2>
-                        <p>
-                            <a href="https://ajax.nl" target="_blank">Ajax</a><br/>
-                            <a href="https://www.centraalbeheer.nl/" target="_blank">Centraal Beheer</a><br/>
-                            <a href="https://knaw.nl/" target="_blank">KNAW</a><br/>
-                            <a href="https://idfa.nl/" target="_blank">IDFA</a>
-                        </p>
-                    </LinksColumn>
-                </Links>
+
             </Container>
+            <Links>
+                <LinksColumn>
+                    <h3>Round the web</h3>
+                    <h2>Links</h2>
+                    <p>
+                        <a href="https://github.com/jariz" target="_blank" rel="noopener noreferrer">GitHub</a><br />
+                        <a href="https://dribbble.com/jariz" target="_blank" rel="noopener noreferrer">Dribbble</a><br />
+                        <a href="https://twitter.com/JariZwarts" target="_blank" rel="noopener noreferrer">Twitter</a><br />
+                        <a href="https://www.linkedin.com/in/jari-zwarts-71798927/" target="_blank" rel="noopener noreferrer">LinkedIn</a> (ugh)
+                    </p>
+                </LinksColumn>
+                <LinksColumn>
+                    <h3>Sporadic Projects</h3>
+                    <h2>Open Source</h2>
+                    <p>
+                        <a href="https://noti.center" target="_blank" rel="noopener noreferrer">Noti</a><br />
+                        <a href="https://jariz.github.io/vibrant.js/" target="_blank" rel="noopener noreferrer">Vibrant.js</a><br />
+                        Akku (soon)<br />
+                        <a href="https://github.com/jariz/tabbie" target="_blank" rel="noopener noreferrer">Tabbie</a> (now defunct)
+                    </p>
+                </LinksColumn>
+                <LinksColumn>
+                    <h3>I wrote code for...</h3>
+                    <h2>Clients</h2>
+                    <p>
+                        <a href="https://ajax.nl" target="_blank">Ajax</a><br />
+                        <a href="https://www.centraalbeheer.nl/" target="_blank">Centraal Beheer</a><br />
+                        <a href="https://knaw.nl/" target="_blank">KNAW</a><br />
+                        <a href="https://idfa.nl/" target="_blank">IDFA</a>
+                    </p>
+                </LinksColumn>
+            </Links>
         </ParallaxLayer>
 
     </Parallax>
 );
 
 const Container = styled.div`
-    width: 100%;
     margin: 0 auto;
     position:relative;
     color: #FFF;
-    padding: 0 3vw;
+    padding: 0 3rem;
+    
+    @media screen and (max-width: 750px) {
+        padding: 0 1.5rem;
+    }
 `;
 
 const Links = styled.section`
     display: flex;
     margin-top: 15vh;
+    background: #FC3476;
+    padding: 15vh 0;
+    color: white;
+    flex-wrap: wrap;
+    
+    @media screen and (max-width: 750px) {
+        margin-top: 5vh;
+        padding-top: 5vh;
+        padding-bottom: 40rem;
+    }
 `;
 
 const LinksColumn = styled.div`
-    padding: 2vw;
+    padding: 2rem 3rem;
     font-family: "Work Sans", sans-serif;
+    width: 33rem;
     
-    &:first-child {
-        margin-left: -2vw;
-    }
+    //&:first-child {
+    //    margin-left: -2rem;
+    //}
     
     p {
-        color: #FC3476;        
-        font-size: 1.2vw;
-        line-height: 2vw;
+        color: rgba(0, 0, 0, .7);        
+        font-size: 1.3rem;
+        line-height: 2rem;
         margin: 0;
         
         a {
@@ -146,33 +160,43 @@ const LinksColumn = styled.div`
     
     h2 {
         font-family: "Space Mono", monospace;
-        font-size: 3.2vw;
+        font-size: 3.6rem;
         text-transform: uppercase;
-        margin: -.5vw 0 0;
+        margin: -.5rem 0 0;
     }
     
     h3 {
         margin: 0;
         opacity: 0.89;
-        font-size: .8vw;
+        font-size: 1rem;
         letter-spacing: 2.22px;
         text-transform: uppercase;
-        font-weight: 300;
+        font-weight: 500;
+        color: black;
     }
-`
+    
+    @media screen and (max-width: 750px) {
+        width: auto;
+    }
+`;
 
 const Intro = styled.h1`
     font-family: "Space Mono", monospace;
-    font-size: 3vw;
+    font-size: 3rem;
     color: #FFFFFF;
     letter-spacing: 0;
     font-weight: 400;
     margin-right:40%;
+    
+    @media screen and (max-width: 750px) {
+        margin-right: 0;
+        font-size: 1.8rem;
+    }
 `;
 
 // const Byline = styled.h1`
 //     font-family: "Work Sans", sans-serif;
-//     font-size: 2vw;
+//     font-size: 2rem;
 //     color: #FC3476;
 //     letter-spacing: 0;
 // `
@@ -215,7 +239,11 @@ const Mountains = styled.img.attrs({ src: mountains })`
     width: 60%;
     height: 40%;
     object-position: bottom;
-    object-fit: contain;    
+    object-fit: contain;
+    
+    @media screen and (max-width: 750px) {
+        right: -4%;
+    }    
 `;
 
 Mountains.Reflection = Mountains.extend`
@@ -256,6 +284,9 @@ const Island = {
     height:25%;
     object-position: top;
     object-fit: contain;
+    @media screen and (max-width: 750px) {
+        display: none;
+    }
 `,
     Tent: styled.img.attrs({ src: islandTent })`
     width: 10%;
@@ -264,6 +295,9 @@ const Island = {
     height:8%;
     object-position: top;
     object-fit: contain;
+    @media screen and (max-width: 750px) {
+        display: none;
+    }
 `,
     Trees: styled.img.attrs({ src: islandTrees })`
     width: 14%;
@@ -272,6 +306,9 @@ const Island = {
     height:10%;
     object-position: bottom;
     object-fit: contain;
+    @media screen and (max-width: 750px) {
+        display: none;
+    }
 `
 };
 
