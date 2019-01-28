@@ -92,8 +92,9 @@ const App = () => (
                     <p>
                         <a href="https://noti.center" target="_blank" rel="noopener noreferrer">Noti</a><br />
                         <a href="https://jariz.github.io/vibrant.js/" target="_blank" rel="noopener noreferrer">Vibrant.js</a><br />
-                        Akku (soon)<br />
-                        <a href="https://github.com/jariz/tabbie" target="_blank" rel="noopener noreferrer">Tabbie</a> (now defunct)
+                        <a href="https://github.com/jariz/akku" target="_blank" rel="noopener noreferrer">Akku</a> (WIP, v soon)<br />
+                        <a href="https://github.com/jariz/gatsby-plugin-s3" target="_blank" rel="noopener noreferrer">gatsby-plugin-s3</a><br />
+                        <a href="https://github.com/jariz/tabbie" target="_blank" rel="noopener noreferrer">Tabbie</a> (defunct)
                     </p>
                 </LinksColumn>
                 <LinksColumn>
